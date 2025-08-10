@@ -90,7 +90,7 @@ class WebSocketSQLi:
             
         return resp == self.true_msg
 
-# O resto do script permanece o mesmo, pois o erro estava contido na classe WebSocketSQLi.
+
 def get_data_length(sqli, query):
     with print_lock: print(f"[+] Discovering length for query: {query}")
     for length in range(1, 100):
